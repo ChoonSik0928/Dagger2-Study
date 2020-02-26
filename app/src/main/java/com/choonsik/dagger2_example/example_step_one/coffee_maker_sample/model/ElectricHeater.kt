@@ -1,4 +1,4 @@
-package com.choonsik.dagger2_example.example_step_one.coffe_sample.model
+package com.choonsik.dagger2_example.example_step_one.coffee_maker_sample.model
 
 internal class ElectricHeater : Heater {
     override var isHot: Boolean = false

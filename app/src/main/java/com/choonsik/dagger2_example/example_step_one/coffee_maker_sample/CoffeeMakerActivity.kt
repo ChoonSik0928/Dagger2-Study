@@ -1,14 +1,13 @@
-package com.choonsik.dagger2_example.example_step_one.coffe_sample
+package com.choonsik.dagger2_example.example_step_one.coffee_maker_sample
 
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.choonsik.dagger2_example.R
-import com.choonsik.dagger2_example.example_step_one.coffe_sample.component.DaggerCoffeeShopComponent
-import com.choonsik.dagger2_example.example_step_one.coffe_sample.model.CoffeeMaker
-import com.choonsik.dagger2_example.example_step_one.coffe_sample.model.ElectricHeater
-import com.choonsik.dagger2_example.example_step_one.coffe_sample.model.Heater
-import com.choonsik.dagger2_example.example_step_one.coffe_sample.model.Thermosiphon
+import com.choonsik.dagger2_example.example_step_one.coffee_maker_sample.component.DaggerCoffeeShopComponent
+import com.choonsik.dagger2_example.example_step_one.coffee_maker_sample.model.CoffeeMaker
+import com.choonsik.dagger2_example.example_step_one.coffee_maker_sample.model.ElectricHeater
+import com.choonsik.dagger2_example.example_step_one.coffee_maker_sample.model.Thermosiphon
 
 class CoffeeMakerActivity : AppCompatActivity() {
 

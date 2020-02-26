@@ -1,5 +1,6 @@
-package com.choonsik.dagger2_example.example_step_one.coffe_sample.model
+package com.choonsik.dagger2_example.example_step_one.coffee_maker_sample.model
 
+import com.choonsik.dagger2_example.example_step_two.cafe_app.model.CoffeeBean
 import javax.inject.Inject
 
 
