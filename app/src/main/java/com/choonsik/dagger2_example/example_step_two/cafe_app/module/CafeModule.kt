@@ -17,15 +17,4 @@ class CafeModule {
     fun provideCafeInfo(): CafeInfo{
         return CafeInfo()
     }
-
-    @Provides
-    fun provideCoffeeMaker(heater: Heater): CafeCoffeeMaker{
-        return CafeCoffeeMaker(heater)
-    }
-
-    @Provides
-    fun provideHeater(): Heater{
-        return ElectricHeater()
-    }
-
 }
