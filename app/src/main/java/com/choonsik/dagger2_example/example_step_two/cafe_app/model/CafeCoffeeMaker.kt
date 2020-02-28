@@ -7,6 +7,6 @@ class CafeCoffeeMaker
 @Inject constructor(private val heater: Heater)
 {
     fun brew(coffeeBean: CoffeeBean): String{
-        return "CoffeeBeen($coffeeBean) [_]P coffee! [_]P "
+        return "CoffeeBeen(${coffeeBean.name()}) [_]P coffee! [_]P "
     }
 }
